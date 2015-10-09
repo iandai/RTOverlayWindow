@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690368E61BC7E89F0095B8DA /* RTOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 690368E51BC7E89F0095B8DA /* RTOverlayWindow.m */; settings = {ASSET_TAGS = (); }; };
+		690368EA1BC7E8C00095B8DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 690368E81BC7E8C00095B8DA /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		690368EB1BC7E8C00095B8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690368E91BC7E8C00095B8DA /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		690368EE1BC7E8E80095B8DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690368ED1BC7E8E80095B8DA /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		690368F01BC7E8F80095B8DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 690368EF1BC7E8F80095B8DA /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		690368F71BC7E91A0095B8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690368F51BC7E91A0095B8DA /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		690368F91BC7E92D0095B8DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 690368F81BC7E92D0095B8DA /* main.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		690368E41BC7E89F0095B8DA /* RTOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTOverlayWindow.h; path = RTOverlayWindowDemo/RTOverlayWindow.h; sourceTree = SOURCE_ROOT; };
+		690368E51BC7E89F0095B8DA /* RTOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTOverlayWindow.m; path = RTOverlayWindowDemo/RTOverlayWindow.m; sourceTree = SOURCE_ROOT; };
+		690368E71BC7E8C00095B8DA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RTOverlayWindowDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		690368E81BC7E8C00095B8DA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RTOverlayWindowDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		690368E91BC7E8C00095B8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RTOverlayWindowDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		690368EC1BC7E8E80095B8DA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = RTOverlayWindowDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		690368ED1BC7E8E80095B8DA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = RTOverlayWindowDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		690368EF1BC7E8F80095B8DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RTOverlayWindowDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		690368F61BC7E91A0095B8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RTOverlayWindowDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		690368F81BC7E92D0095B8DA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RTOverlayWindowDemo/main.m; sourceTree = SOURCE_ROOT; };
+		6964F1E11BBE80BB00EBB5D2 /* RTOverlayWindowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTOverlayWindowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6964F1DE1BBE80BB00EBB5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6964F1D81BBE80BB00EBB5D2 = {
+			isa = PBXGroup;
+			children = (
+				6964F1E31BBE80BB00EBB5D2 /* RTOverlayWindowDemo */,
+				6964F1E21BBE80BB00EBB5D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6964F1E21BBE80BB00EBB5D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6964F1E11BBE80BB00EBB5D2 /* RTOverlayWindowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6964F1E31BBE80BB00EBB5D2 /* RTOverlayWindowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				69A7220C1BC7E56900B0A81B /* Source */,
+				690368E71BC7E8C00095B8DA /* AppDelegate.h */,
+				690368E81BC7E8C00095B8DA /* AppDelegate.m */,
+				690368EC1BC7E8E80095B8DA /* ViewController.h */,
+				690368ED1BC7E8E80095B8DA /* ViewController.m */,
+				690368F51BC7E91A0095B8DA /* Main.storyboard */,
+				690368E91BC7E8C00095B8DA /* Assets.xcassets */,
+				690368EF1BC7E8F80095B8DA /* Info.plist */,
+				6964F1E41BBE80BB00EBB5D2 /* Supporting Files */,
+			);
+			name = RTOverlayWindowDemo;
+			path = IANOverLay;
+			sourceTree = "<group>";
+		};
+		6964F1E41BBE80BB00EBB5D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				690368F81BC7E92D0095B8DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69A7220C1BC7E56900B0A81B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				690368E41BC7E89F0095B8DA /* RTOverlayWindow.h */,
+				690368E51BC7E89F0095B8DA /* RTOverlayWindow.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6964F1E01BBE80BB00EBB5D2 /* RTOverlayWindowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6964F1F81BBE80BB00EBB5D2 /* Build configuration list for PBXNativeTarget "RTOverlayWindowDemo" */;
+			buildPhases = (
+				6964F1DD1BBE80BB00EBB5D2 /* Sources */,
+				6964F1DE1BBE80BB00EBB5D2 /* Frameworks */,
+				6964F1DF1BBE80BB00EBB5D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTOverlayWindowDemo;
+			productName = IANOverLay;
+			productReference = 6964F1E11BBE80BB00EBB5D2 /* RTOverlayWindowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6964F1D91BBE80BB00EBB5D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iandai;
+				TargetAttributes = {
+					6964F1E01BBE80BB00EBB5D2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6964F1DC1BBE80BB00EBB5D2 /* Build configuration list for PBXProject "RTOverlayWindowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6964F1D81BBE80BB00EBB5D2;
+			productRefGroup = 6964F1E21BBE80BB00EBB5D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6964F1E01BBE80BB00EBB5D2 /* RTOverlayWindowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6964F1DF1BBE80BB00EBB5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690368F71BC7E91A0095B8DA /* Main.storyboard in Resources */,
+				690368EB1BC7E8C00095B8DA /* Assets.xcassets in Resources */,
+				690368F01BC7E8F80095B8DA /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6964F1DD1BBE80BB00EBB5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690368F91BC7E92D0095B8DA /* main.m in Sources */,
+				690368E61BC7E89F0095B8DA /* RTOverlayWindow.m in Sources */,
+				690368EA1BC7E8C00095B8DA /* AppDelegate.m in Sources */,
+				690368EE1BC7E8E80095B8DA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		690368F51BC7E91A0095B8DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690368F61BC7E91A0095B8DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6964F1F61BBE80BB00EBB5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6964F1F71BBE80BB00EBB5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6964F1F91BBE80BB00EBB5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RTOverlayWindowDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.iandai.RTOverlayWindowDemo;
+				PRODUCT_NAME = RTOverlayWindowDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6964F1FA1BBE80BB00EBB5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RTOverlayWindowDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.iandai.RTOverlayWindowDemo;
+				PRODUCT_NAME = RTOverlayWindowDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6964F1DC1BBE80BB00EBB5D2 /* Build configuration list for PBXProject "RTOverlayWindowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6964F1F61BBE80BB00EBB5D2 /* Debug */,
+				6964F1F71BBE80BB00EBB5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6964F1F81BBE80BB00EBB5D2 /* Build configuration list for PBXNativeTarget "RTOverlayWindowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6964F1F91BBE80BB00EBB5D2 /* Debug */,
+				6964F1FA1BBE80BB00EBB5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6964F1D91BBE80BB00EBB5D2 /* Project object */;
+}
