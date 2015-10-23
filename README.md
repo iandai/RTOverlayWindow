@@ -2,8 +2,9 @@ RTOverlayWindow
 ============
 
 RTOverlayWindow creates an overlay window which fills the entire screen with another UIWindow. Handles view's orientation automatically.
+RTOverlayWindow tries to learn from the implementation of UIAlertView. 
 
-RTOverlayWindow works on iOS 6 ~ iOS 9.
+RTOverlayWindow works on iOS 8 ~ iOS 9.
 
 
 Usage
@@ -22,8 +23,3 @@ Support the current orientation the status bar might have
     // overlayView.backgroundColor = ...
     // add any subviews
     
-
-FIX ME
--------
-* issue with iOS6 in Demo
-* issue when iPad is in landscape mode
